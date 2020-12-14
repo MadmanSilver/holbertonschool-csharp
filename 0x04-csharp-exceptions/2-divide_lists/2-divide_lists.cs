@@ -14,7 +14,6 @@ class List
                 res.Add(0);
             } catch (ArgumentOutOfRangeException) {
                 Console.WriteLine("Out of range");
-                return res;
             }
         }
 
