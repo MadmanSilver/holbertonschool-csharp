@@ -12,7 +12,7 @@ class List
             } catch (DivideByZeroException) {
                 Console.WriteLine("Cannot divide by zero");
                 res.Add(0);
-            } catch {
+            } catch (ArgumentOutOfRangeException) {
                 Console.WriteLine("Out of range");
                 return res;
             }
