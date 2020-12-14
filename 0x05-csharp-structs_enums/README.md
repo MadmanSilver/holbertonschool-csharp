@@ -1,0 +1,1 @@
+0x05 C# Structs Enums is a project to teach about structs and enums in C#.
