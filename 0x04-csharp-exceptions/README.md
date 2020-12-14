@@ -1,0 +1,1 @@
+0x04 C# Exceptions is a project to teach about exceptions in C#.
