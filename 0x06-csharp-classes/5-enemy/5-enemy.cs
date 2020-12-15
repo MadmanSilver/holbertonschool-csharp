@@ -8,7 +8,9 @@ namespace Enemies
     /// </summary>
     public class Zombie
     {
+        /// Vitality of the zombie.
         private int health;
+        /// Name of the zombie.
         private string name = "(No name)";
 
         /// <summary>
@@ -36,6 +38,9 @@ namespace Enemies
             return health;
         }
 
+        /// <summary>
+        /// Vitality of the Zombie.
+        /// </summary>
         public string Name {
             get { return name; }
             set { name = value; }

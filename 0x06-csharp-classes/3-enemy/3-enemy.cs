@@ -8,6 +8,7 @@ namespace Enemies
     /// </summary>
     public class Zombie
     {
+        /// Vitality of the zombie.
         private int health;
 
         /// <summary>
