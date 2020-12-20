@@ -44,6 +44,6 @@ class Rectangle : Shape {
 
     /// <summary> Returns the string representation of the rectangle. </summary>
     public override string ToString() {
-        return $"[Reactangle] {width} / {height}";
+        return $"[Rectangle] {width} / {height}";
     }
 }
