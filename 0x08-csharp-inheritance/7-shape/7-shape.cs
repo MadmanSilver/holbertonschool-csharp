@@ -10,7 +10,9 @@ class Shape {
 
 /// <summary> Outline of a rectangle. </summary>
 class Rectangle : Shape {
+    /// width of the rectangle
     private int width;
+    /// height of the rectangle
     private int height;
 
     /// <summary> The width of the rectangle. </summary>
