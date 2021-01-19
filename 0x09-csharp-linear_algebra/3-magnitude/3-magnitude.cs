@@ -1,7 +1,9 @@
 ﻿using System;
 
+/// <summary> Contains vector math functions. </summary>
 class VectorMath
 {
+    /// <summary> Calculates the magnitude of a vector. </summary>
     public static double Magnitude(double[] vector) {
         if (vector.length == 2) {
             return Math.sqrt(vector[0] * vector[0] + vector[1] * vector[1]);
