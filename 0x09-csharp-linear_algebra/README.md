@@ -1,0 +1,1 @@
+0x09 C# Linear Algebra is a project to teach about linear algebra in C#.
