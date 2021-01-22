@@ -9,7 +9,7 @@ class MatrixMath
             return new double[,] {{-1}};
         }
 
-        double[,] res = new double[matrix1.GetLength(1),matrix1.GetLength(1)];
+        double[,] res = new double[matrix1.GetLength(0),matrix2.GetLength(1)];
         double tmp = 0;
         int y1 = 0;
         int x1 = 0;
