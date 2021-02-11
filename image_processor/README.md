@@ -1,0 +1,1 @@
+Image Processing is a project to teach about image processing in C#.
