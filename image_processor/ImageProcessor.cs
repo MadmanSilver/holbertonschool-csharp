@@ -116,11 +116,11 @@ class ImageProcessor {
             string name = filenames[0];
             Bitmap bmp = new Bitmap(name);
 
-            Image image = bmp.GetThumbnailImage(bmp.Width * (height / bmp.Height), height, new Image.GetThumbnailImageAbort(() => {return false;}), IntPtr.Zero);
+            Image image = bmp.GetThumbnailImage((int)(bmp.Width * (double)((double)height / (double)bmp.Height)), height, () => {return false;}, IntPtr.Zero);
 
             int lastSlash = name.LastIndexOf('/') + 1;
             int lastDot = name.LastIndexOf('.');
-            image.Save(name.Substring(lastSlash, lastDot - lastSlash) + "_bw" + name.Substring(lastDot));
+            image.Save(name.Substring(lastSlash, lastDot - lastSlash) + "_th" + name.Substring(lastDot));
         }
 
         if (filenames.Length > 1) {
