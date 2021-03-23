@@ -1,0 +1,1 @@
+0x0A C# Generics is a project to teach about generics in C#.
