@@ -1,0 +1,1 @@
+0x0B C# Interfaces is a project to teach about interfaces in C#.
