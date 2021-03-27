@@ -1,5 +1,6 @@
 ﻿using System;
 
+/// <summary> Abstract base class </summary>
 abstract class Base {
     public string name;
 
